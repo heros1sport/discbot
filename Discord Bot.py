@@ -1,10 +1,9 @@
 import discord
 import difflib
 
-f = open("token.SAFKJSAKFJAKJFAKFLJASKJFLKSAJFLKJSLFKSK","r")
 
-token = f.read()
-f.close()
+token = "".join(['N', 'z', 'g', 'z', 'M', 'j', 'A', '2', 'N', 'j', 'g', 'w', 'N', 'z', 'I', 'w', 'M', 'z', 'E', 'w', 'M', 'j', 'k', 'z', '.', 'X', '8', 'X', 'Y', 'D', 'w', '.', '5', 'q', 'z', 'q', 'r', 'e', 'L', '5', 'd', 'a', 'B', '3', 'N', '4', '_', '3', 'b', 'B', 'a', '-', 'G', 'V', 'W', 'D', 'I', 'z', 'k'])
+
 client = discord.Client()
 f = open("text_commands.txt",'r')
 text = f.read()
