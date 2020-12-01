@@ -1,6 +1,6 @@
 import discord
 import difflib
-token = "NzgzMjA2NjgwNzIwMzEwMjkz.X8XYDw.1q7saPjInjtu7QcmdM4zPaT_Cc8"
+token = "NzgzMjA2NjgwNzIwMzEwMjkz.X8XYDw.P7OYvuxri4_E-j5NX-xoeX7qcVk"
 client = discord.Client()
 f = open("text_commands.txt",'r')
 text = f.read()
